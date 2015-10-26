@@ -10,20 +10,38 @@
     android:gravity="center|top"
     tools:context=".MainActivity">
 
-    <TextView
-        android:text="@string/hello_world"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"/>
+    <!--<TextView-->
+        <!--android:text="@string/hello_world"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="1"/>-->
 
-    <TextView
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Goodbye blah blah blah blah"-->
+        <!--android:layout_weight="1"/>-->
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="More Random text"-->
+        <!--android:layout_weight="1"/>-->
+
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Goodbye blah blah blah blah"
-        android:layout_weight="1"/>
-    <TextView
+        android:text="1st Button"
+        android:textSize="15sp"/>
+
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="More Random text"
-        android:layout_weight="1"/>
+        android:text="2nd Button"
+        android:textSize="15sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3rd Button"
+        android:textSize="15sp"/>
 </LinearLayout>
